@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter | Rajendra mandliya</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+    content="
+A temperature converter helps in the conversion of the measurement units of the temperature recorded in a particular unit. Temperature expresses the degree of heat or cold of a solid, liquid, or gas. Temperature is measured using a thermometer.">
+
+<meta name="keywords" content="temperature converter, convert celsius to fahrenheit, convert fahrenheit to celsius">
+
+</head>
+<body>
+    <div class="container" >
+        <h1 class="heading">
+            Temperature Convertor
+        </h1>
+        <div class="temp-container" >
+            <label for="celsius">Degree :</label>
+            <input
+            type="number" class="input" id="celsius" required 
+            name="celsius" placeholder="Enter Temperature">
+        </div>
+        <div class="temp-container">
+            <label for="select">Type :</label>
+           <select class="input" id="type" name="select"  required>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+            </select>
+        </div>
+        <div class="temp-container">
+            <label for="result">Result :</label>
+            <input 
+            type="number" class="input" id="result" disabled 
+            name="result" placeholder="Output">
+        </div>
+        <button class="btn" onclick="computeTemp()"  >convert</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

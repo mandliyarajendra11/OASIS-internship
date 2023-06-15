@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left bottom,
+     lightgreen, lightblue);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: darkcyan;
+}
+
+.container{
+    background-color: rgba(2500,250,250,0.3);
+    border-radius: 10px;
+    padding: 20px;
+   
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading{
+    font-size: 32px;
+
+}
+
+.temp-container{
+    width: 100%;
+    /* padding: 15px; */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.input{
+    width: 220px;
+    font-family: monospace;
+    padding: 5px;
+    float: right;
+    outline: none;
+    background-color: rgba(2500,250,250,0.3);
+    border-color: rgba(2500,250,250,0.5);
+    color: darkgreen;
+    font-size: 18px;
+}
+#type{
+    width: 232px;
+}
+.input::placeholder{
+    color: darkgreen;
+}
+.btn {
+    background: lightgreen;
+    background-image: -webkit-linear-gradient(top, lightgreen, lightblue);
+    background-image: -moz-linear-gradient(top, lightgreen, lightblue);
+    background-image: -ms-linear-gradient(top, lightgreen, lightblue);
+    background-image: -o-linear-gradient(top, lightgreen, lightblue);
+    background-image: linear-gradient(to bottom, lightgreen, lightblue);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: darkgreen;
+    font-size: 20px;
+    padding: 9px 40px 9px 40px;
+    text-decoration: none;
+ border: none; 
+}
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  #fa {
+    font-size: 50px;
+  }
