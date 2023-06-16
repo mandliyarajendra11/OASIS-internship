@@ -38,3 +38,56 @@ ul#nav
 	font-family:Bell MT;
 	font-size:25px;
 }
+span#m
+{
+	color:red;
+	font-weight:bold;
+}
+div#div1 p
+{
+	color:black;
+	font-family:Book Antiqua;
+	font-size:20px;
+	text-align:justify;
+}
+ul#bullets{
+    list-style-image: url('http://res.cloudinary.com/dznzzmfbs/image/upload/v1521895526/check_mapppp.png');
+	color:black;
+	font-family:Book Antiqua;
+	font-size:20px;
+}
+div#div3 table
+{
+	color:black;
+	font-family:Book Antiqua;
+	font-size:20px;
+}
+h2#head
+{
+	color:black;
+	font-family:Book Antiqua;
+}	
+p#last
+{
+	font-size:20px;
+	font-family:Footlight MT;
+}
+div#l
+{
+	float:left;
+}
+.sp{
+    padding-left: 50px;
+    margin-right: 10px;
+    max-width: 900px;
+    max-height: 800px;
+    float: right;
+}
+footer{
+ background-color: #2a2b2c;
+text-align: center;
+width: 100%;
+height: 30px;
+color: white;
+margin-bottom: 5px;
+}
