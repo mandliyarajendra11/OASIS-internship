@@ -1,0 +1,67 @@
+.main{
+  width: 25vw;
+  background-color: #fff;;
+  border-radius: 1.5rem;
+padding: 3rem 2rem;
+}
+.output{
+  height: 10rem ;
+  padding: 1.5rem 2rem;
+  background-color: skyblue;
+  border-radius: 1rem;
+}
+.output p{
+  font-size: 2rem;
+  color: rgb(60, 60, 248);
+}
+.output h1{
+  float: right;
+font-size: 3rem;
+}
+.input{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(6rem,1fr));
+  gap: 1rem;
+  padding: 1.5rem;
+}
+.input button{
+  height: 7rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgb(188, 221, 234);
+  font-size: 2rem;
+}
+.input button[type=submit]{
+  grid-column-start: 3;
+ grid-column-end:  5 ;
+ background-color: rgb(91, 91, 251);
+ color: #fff;
+ font-weight: 700;
+}
+@media(max-width:1196px){
+  .main{
+    width: 33vw;
+  }
+}
+
+@media(max-width:768px){
+  html{
+    font-size: 52%;
+  }
+  .main{
+    width: 50vw;
+  }
+}
+
+@media(max-width:499px){
+  .main{
+    width: 65vw;
+    padding: 2rem;
+  }
+}
+@media(max-width:399px){
+  .main{
+    width: 80vw;
+  }
+}
